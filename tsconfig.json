@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "outDir": "dist",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true
+    },
+    "include": ["server/**/*",
+                "./*.js",
+                "./api/*.ts",
+                "src/**/*.ts",
+                "test/**/*.ts",
+    ],
+    "exclude": ["node_modules"]
+}
